@@ -31,12 +31,12 @@ services:
     container_name: windows
     environment:
       VERSION: "11"
-      USERNAME: "MASTER"
-      PASSWORD: "admin@123"
-      RAM_SIZE: "12G"
+      USERNAME: "zommer"
+      PASSWORD: "123"
+      RAM_SIZE: "10G"
       CPU_CORES: "4"
-      DISK_SIZE: "60G"
-      GPU_TYPE: "virtio"
+      DISK_SIZE: "100G"
+      GPU_TYPE: "gfxstream"
       AUTO_LOGON: "true"
       ENABLE_KVM: "true"
     devices:
@@ -60,6 +60,6 @@ echo
 echo "========================================"
 echo "🎉 Windows VM installed!"
 echo "🖥️  Connect via RDP: (your server IP):3389"
-echo "👤 Username: MASTER"
-echo "🔑 Password: admin@123"
+echo "👤 Username: zommer"
+echo "🔑 Password: 123"
 echo "========================================"
